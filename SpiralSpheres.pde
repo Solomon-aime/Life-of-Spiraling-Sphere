@@ -1,7 +1,7 @@
 //This code runs on Porcessing4
 //PeasyCam cam;
 int radius = 250;
-float i =0;
+
 float p =0;
 
 void setup() {
@@ -31,13 +31,11 @@ void draw() {
   float lastZ =0;
   
   
-  i += 0.1;
-  
   p +=2;
   stroke(p, p, p, 255);
   
   while (t <= 180) {
-    s +=i;
+    s +=150;
     t +=1;
     float radianS = radians(s);
     float radianT = radians(t);
