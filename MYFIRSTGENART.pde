@@ -1,5 +1,4 @@
-import peasy.*;
-
+//This code runs on Porcessing4
 //PeasyCam cam;
 int radius = 250;
 float i =0;
@@ -57,7 +56,7 @@ void draw() {
    lastY = thisY;
    lastZ = thisZ;
   }
-  saveFrame("screen-####.png");
+  //saveFrame("screen-####.png");
 }
 
 void keyPressed() {
